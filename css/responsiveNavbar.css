@@ -1,4 +1,4 @@
-@media (max-width: 600px) {
+@media (max-width: 768px) {
     .navbar .nav_button {
         display: none;
     }
@@ -7,5 +7,6 @@
     }
     .dropdown_navbar {
         display: block;
+        z-index: 1000;
     }
 }

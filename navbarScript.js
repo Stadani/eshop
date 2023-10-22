@@ -6,4 +6,5 @@ document.addEventListener('DOMContentLoaded', function() {
     btn.onclick = function () {
         dropdown.classList.toggle('open');
     }
+    console.log("NavbarScript is running!");
 });
