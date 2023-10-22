@@ -1,0 +1,130 @@
+.container{
+    margin-top: 20px;
+    background: #333333;
+    max-width: 1400px;
+    display: table;
+    table-layout: fixed;
+    border-collapse: collapse;
+    list-style: none;
+    padding: 0;
+    /*align-items: center;*/
+    /*margin-left: auto;*/
+    /*margin-right: auto;*/
+}
+.container.bar{
+    background-color: #222222;
+}
+
+.button_bar{
+    background-color: #4E31AA;
+    color:#EEEEEE;
+    border-radius:10px;
+    border:1px solid #4E31AA;
+}
+/*GENERAL*/
+.table_item {
+    display: table;
+    border-top: 1px solid rgba(255,255,255,0.12);
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.table_cell{
+    display: table-cell;
+    padding: 10px 10px;
+}
+/*ICON*/
+.table_cell.table_cell_icon {
+    width: 56px;
+    position: relative;
+}
+
+.table_cell_icon_cont {
+    position: relative;
+}
+/*MAIN*/
+.table_cell.table_cell_title {
+    margin: 0;
+    padding: 0;
+    font-size: 1.4rem;
+    color: #eeeeee;
+}
+.table_cell_info{
+    vertical-align: top;
+    font-size: 1.3rem;
+    color: #9398a0;
+}
+.table_cell_main.table_cell_info{
+    clear: both;
+    display: flex;
+    align-items: center;
+}
+/*MIDDLE*/
+.table_item.table_cell_middle {
+    width: 115px;
+    font-size: 1.3rem;
+    border: 10px solid rgba(255,255,255,0.12);
+    border-left: 100px solid rgba(255,255,255,0.12);
+}
+.table_row{
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    line-height: 1.7;
+}
+/*MIDDLE TABLE*/
+.table_item.table_row {
+    line-height: inherit;
+}
+.table_row.table_row_just {
+    display: flex;
+    justify-content: space-between;
+}
+dl{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+dt {
+    display: block;
+}
+.table_row>dt{
+    padding: 0;
+    margin: 0;
+    color: #9398a0;
+}
+.table_row.table_row_just>dt {
+    float: left;
+    max-width: 100%;
+    margin-right: 10px;
+    flex-shrink: 0;
+}
+dd {
+    display: block;
+    margin-inline-start: 40px;
+}
+.table_row>dd {
+    padding: 0;
+    margin: 0;
+}
+.table_row.table_row_just>dd {
+    float: right;
+    text-align: right;
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+@media (max-width: 900px)
+.table_item {
+    vertical-align: top;
+}
+@media (max-width: 900px)
+.table_item.table_cell_middle {
+    width: 115px;
+    font-size: 1.3rem;
+}

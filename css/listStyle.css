@@ -1,0 +1,36 @@
+
+.container{
+    margin-top: 20px;
+    background: #333333;
+    max-width: 1400px;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.page_content{
+    margin-top: 10px;
+    justify-content: space-evenly;
+
+}
+.card {
+    /*margin-top: 5px;*/
+    height: 30vh;
+}
+input[type=text] {
+    margin: 10px;
+}
+@media (min-width: 960px) {
+    .card {
+        width: 20vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+/*@media (min-width: 1600px) {*/
+/*    .card {*/
+/*        width: 20vw;*/
+/*        margin-left: auto;*/
+/*        margin-right: auto;*/
+/*    }*/
+/*}*/
