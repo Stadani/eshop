@@ -120,7 +120,7 @@
     .table_cell_middle {
         display: none;
     }
-    .sidenav {
+   .sidenav.just {
         margin-left: 0;
         justify-content: center;
     }
